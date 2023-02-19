@@ -1,0 +1,43 @@
+.mainDiv {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+}
+
+.filterContainer {
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 15px;
+}
+
+.formContainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.tableContainer {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: calc(100% - 50px);
+    width: 100vw;
+    padding: 0px 15px;
+}
+
+.pagination {
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    border-top: solid 1px black;
+}

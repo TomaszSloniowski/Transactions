@@ -1,0 +1,40 @@
+.table {
+    max-height: calc(100% - 230px);
+}
+
+.tableHead {
+    top: 0px;
+    position: sticky;
+}
+
+.headerRow {
+    border-bottom: solid 1px lightgrey;
+}
+
+.headerCell {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    height: 20px;
+    color: #FFFFFF;
+    background-color: black;
+    border-bottom: solid 1px lightgrey;
+}
+
+.tableRow {
+    transition: ease-out 1s
+}
+
+.bodyCell {
+    font-size: 14px;
+    padding: 0px 10px;
+    max-height: 10px;
+}
+
+.noResult {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+.inputFields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+.buttonsRow {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding: 15px;
+}
+
+.button {
+    margin: 10px;
+}
